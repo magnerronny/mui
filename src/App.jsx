@@ -13,7 +13,6 @@ function App() {
       <Practice/>
       <CardMui/>
       <NavBar/>
-      
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
