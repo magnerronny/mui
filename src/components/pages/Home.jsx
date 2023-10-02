@@ -1,6 +1,9 @@
+import { Notificaciones } from "../notificaciones/Notificaciones"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Notificaciones/>
+    </>
   )
 }
