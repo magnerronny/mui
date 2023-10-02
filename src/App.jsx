@@ -1,5 +1,5 @@
 import './App.css'
-import { BoxMui, ContainerMui, GridMui, Practice } from './components'
+import { BoxMui, CardMui, ContainerMui, GridMui, Practice } from './components'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <BoxMui/>
       <GridMui/>
       <Practice/>
+      <CardMui/>
     </>
   )
 }
