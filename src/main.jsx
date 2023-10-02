@@ -8,13 +8,16 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Theme } from './Theme/Theme.js';
+import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={Theme}>
     <CssBaseline/>
-      <App />
+      <BrowserRouter>
+        <App/>
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>,
 )
